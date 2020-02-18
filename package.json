@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-censorreact",
+  "version": "1.0.0",
+  "description": "censorREACT is a plugin designed to be a simple, easy-to-use moderation tool, for your online content",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intygrate/nodebb-plugin-censorreact"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "censor",
+    "curse",
+    "verification",
+    "filter",
+    "words"
+  ],
+  "author": "Intygrate Pty Ltd",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/intygrate/nodebb-plugin-censorreact/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.12.0 || ^1.13.0"
+  },
+  "dependencies": {}
+}

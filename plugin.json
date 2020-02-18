@@ -1,0 +1,37 @@
+{
+	"id": "nodebb-plugin-censorreact",
+	"name": "censorREACT moderation tool",
+	"description": "censorREACT is a plugin designed to be a simple, easy-to-use moderation tool, for your online content",
+	"url": "https://github.com/intygrate/nodebb-plugin-censorreact",
+	"library": "./index.js",
+	"templates":"static/templates",
+	"hooks": [
+    { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "adminMenu" },
+
+		{ "hook": "filter:parse.aboutme", "method": "parseRaw" },
+		{ "hook": "filter:parse.signature", "method": "parseSignature" },
+
+		{ "hook": "filter:post.create", "method": "parsePost" },
+		{ "hook": "filter:post.edit", "method": "parsePost" },
+
+		{ "hook": "filter:topic.create", "method": "parseTopic" },
+		{ "hook": "filter:topic.edit", "method": "parseTopic" },
+		{ "hook": "filter:tags.filter", "method": "filterTags" }
+	],
+	"staticDirs": {
+    "static": "./static",
+    "images": "./images"
+	},
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"languages": "languages",
+	"defaultLang": "en_GB"
+}
+
+
