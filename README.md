@@ -8,7 +8,7 @@ Automated text filtering and image moderation are provided so you can get on wit
 
 ## Installation
 
-```npm install nodebb-plugin-censorreact```
+```npm install https://github.com/intygrate/nodebb-plugin-censorreact.git```
 
 ## Screenshots
 <!-- ![ScreenShot](https://raw.github.com/ninenine/nodebb-plugin-beep/master/screenshot.png) -->
