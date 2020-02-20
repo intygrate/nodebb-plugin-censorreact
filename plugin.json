@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-censorreact",
+	"id": "@intygrate/nodebb-plugin-censorreact",
 	"name": "censorREACT moderation tool",
 	"description": "censorREACT is a plugin designed to be a simple, easy-to-use moderation tool, for your online content",
 	"url": "https://github.com/intygrate/nodebb-plugin-censorreact",
