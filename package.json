@@ -1,6 +1,6 @@
 {
   "name": "@intygrate/nodebb-plugin-censorreact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "censorREACT is a plugin designed to be a simple, easy-to-use moderation tool, for your online content",
   "main": "index.js",
   "scripts": {
